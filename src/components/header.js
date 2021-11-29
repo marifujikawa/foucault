@@ -10,6 +10,7 @@ export default function Header() {
             <Link className="app-link" to="/">Home</Link>
             <Link className="app-link" to="/books">Livres</Link>
             <Link className="app-link" to="/authorslife">La vie de l'auteur;</Link>
+            <Link className="app-link" to="/javascript">Javascript</Link>
         </header>
     )
 }

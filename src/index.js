@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Routes,  Route } from "react-router-dom";
 import Books from "./routes/books";
 import Authorslife from "./routes/authorslife";
+import Javascript from "./routes/javascript";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,6 +14,8 @@ ReactDOM.render(
       <Route path="/" element={<App />} />
       <Route path="books" element={<Books />} />
       <Route path="authorslife" element={<Authorslife />} />
+      <Route path="javascript" element={<Javascript />} />
+
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
